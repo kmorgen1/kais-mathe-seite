@@ -7,6 +7,11 @@ title: "Jekyll Computer Modern Theme"
 
 Jekyll Computer Modern Theme is a simple theme for publishing essays to GitHub Pages with Jekyll: [Github Link](https://github.com/kortina/jekyll-computer-modern-theme). It is 🆗 for a simple blog or academic paper.
 
+## $$LaTex$$ Markup
+> The LaTeX code for this is `$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $`. The markdown syntax uses $ one more time in each delimiter: `$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$`.
+
+In den Text eingesetzt ergibt das $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$.
+
 ## Posts List
 
 {% for post in site.posts %}<p><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>{% endfor %}
