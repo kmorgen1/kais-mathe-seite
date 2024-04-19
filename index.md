@@ -14,15 +14,13 @@ In den Text eingesetzt ergibt das $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$.
 
 ## Existenzbeweis Determinante
 Um zu beweisen, dass die Determinante einer oberen Dreiecksmatrix das Produkt der Diagonalelemente ist, betrachten wir eine beliebige obere Dreiecksmatrix $$ A $$ der Größe $$ n \times n $$:
-
-$ A = \begin{pmatrix}
+$$ A = \begin{pmatrix}
 a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
 0 & a_{22} & a_{23} & \cdots & a_{2n} \\
 0 & 0 & a_{33} & \cdots & a_{3n} \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & 0 & \cdots & a_{nn} \\
-\end{pmatrix} $
-
+\end{pmatrix} $$
 Wir können die Determinante dieser Matrix $$ \text{det}(A) $$ durch Entwicklung nach der ersten Zeile berechnen:
 
 $$ \text{det}(A) = a_{11} \cdot \text{det}(A_{11}) + a_{12} \cdot \text{det}(A_{12}) + \cdots + a_{1n} \cdot \text{det}(A_{1n}) $$
