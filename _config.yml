@@ -1,7 +1,7 @@
 # Site settings
-title: Jekyll Computer Modern Theme
-tagline: '...'
-url: 'https://kortina.nyc/jekyll-computer-modern-theme' # The base hostname & protocol for your site. Use it if you need absolute URL's. This should NOT end in a `/` character
+title: Kais Mathe-Seite
+tagline: 'Proofs using baby steps'
+url: 'https://kmorgen1.github.io/kais-mathe-seite/' # The base hostname & protocol for your site. Use it if you need absolute URL's. This should NOT end in a `/` character
 permalink: /posts/:title/
 author: author
 socialimg: ''
