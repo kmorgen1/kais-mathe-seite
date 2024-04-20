@@ -1,16 +1,7 @@
-Jekyll Computer Modern Theme is a simple theme for publishing essays to GitHub Pages with Jekyll.
+Notizen zu Mathe, in denen ich mir im Detail all die Dinge notiere, die man laut Lehrbuch "offensichtlich" sieht.
 
-It is 🆗 for a simple blog or academic paper. 
-
-Demo site: https://kortina.nyc/jekyll-computer-modern-theme/
+Nutzt das Jekyll Computer Modern Theme (siehe site: https://kortina.nyc/jekyll-computer-modern-theme/) & MathJax, so dass die Webseiteh aussehen wie die guten alten getexten Scripte.
 
 ### TODO
-
-- add post layout
-- add posts list
-
-### Usage
-
-Make sure to edit `_config.yml` and set `url` to the domain for your site.
-
-Edit the `header.html` and `footer.html` in `_includes`.
+- Technik-Seite zu MathJax
+- add page list
