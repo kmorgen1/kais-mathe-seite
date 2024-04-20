@@ -5,19 +5,30 @@ title: 'Attribution and Implementation'
 This site uses the Jekyll Computer Modern Theme. It is a simple theme for publishing essays to GitHub Pages with Jekyll: [Github Link](https://github.com/kortina/jekyll-computer-modern-theme). It is 🆗 for a simple blog or academic paper.
 
 ## $$LaTex$$ Markup
+For MathJax the following code has to be included in the page header:
 
+```html
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+   CommonHTML: {
+    scale: 85
+   }
+  });
+</script>
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+```
 
-> The LaTeX code for this is `$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $`. The markdown syntax uses $ one more time in each delimiter: `$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$`.
+In $$LaTeX$$ code like this `\( \nabla_\boldsymbol{x} J(\boldsymbol{x}) \)` the markdown syntax uses `$$...$$` in stead of `\(...\)` as the delimiter: `$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$`.
+and the code is rendered as $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$.
 
-In den Text eingesetzt ergibt das $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$.
+Formulas that are their own paragraph, in $$LaTex$$ delimited as `\[...\]` have to be delimited by <p>$$...$$</p>, otherwise the unrendered code will be repeated after the formula:
 
-## Posts List
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
-{% for post in site.posts %}<p><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></p>{% endfor %}
+<p>$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$</p>
 
-## Example Static Page (not a post)
-
-[Example Static Page]({{site.url}}/example-static-page/)
+For some reason I have not figured out yet, this is caused by some combination a MathJax and the theme. I have tested this in other themes and there the <p> tags are not necessary.
 
 ## Style Guide
 
