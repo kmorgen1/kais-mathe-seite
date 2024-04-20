@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 'Attribution and Implementation'
 ---
 This site uses the Jekyll Computer Modern Theme. It is a simple theme for publishing essays to GitHub Pages with Jekyll: [Github Link](https://github.com/kortina/jekyll-computer-modern-theme). It is 🆗 for a simple blog or academic paper.
