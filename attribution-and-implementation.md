@@ -18,13 +18,18 @@ For MathJax the following code has to be included in the page header:
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 ```
+### Scaling
+The parameter `scale` above determines how big the $$LaTex$$ formulas are relative to the regular text. I found by trial and error that 85 is pretty close to a 1:1-ratio, as seen in the F$$Formula$$a. However, this is only true for a computer screen. On my mobile the ratio changes. 
 
+### Delimiters
 In $$LaTeX$$ code like this `\( \nabla_\boldsymbol{x} J(\boldsymbol{x}) \)` the markdown syntax uses `$$...$$` in stead of `\(...\)` as the delimiter: `$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$`.
 and the code is rendered as $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$.
 
 Formulas that are their own paragraph, in $$LaTex$$ delimited as `\[...\]` have to be delimited by <p>$$...$$</p>, otherwise the unrendered code will be repeated after the formula:
 
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+
+With the tags the superflous raw code disapears:
 
 <p>$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$</p>
 
