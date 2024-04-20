@@ -9,5 +9,3 @@ Mathe-Notizen, in denen ich mir die Sachen aufschreibe, die in Lehrbüchern unte
 
 ## Themen
 {% for page in site.pages %}<p><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></p>{% endfor %}
-
-[Example Static Page]({{site.url}}/example-static-page/)
