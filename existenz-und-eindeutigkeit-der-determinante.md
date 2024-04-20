@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 'Existenz und Eindeutigkeit der Determinante'
 ---
 ## Existenzbeweis Determinante
