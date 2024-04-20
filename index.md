@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Jekyll Computer Modern Theme"
+title: "Kais Mathe-Seiten"
 ---
 
 # Kais Mathe-Seiten
